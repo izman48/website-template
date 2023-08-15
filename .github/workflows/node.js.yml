@@ -5,15 +5,15 @@ name: Node.js CI
 
 on:
   push:
-    paths: ['frontend/**']
+    paths: ['app/**']
     branches: [ "main" ]
   pull_request:
-    paths: ['frontend/**']
+    paths: ['app/**']
     branches: [ "main" ]
 
 defaults:
   run:
-    working-directory: frontend
+    working-directory: app
     
 jobs:
   build:
