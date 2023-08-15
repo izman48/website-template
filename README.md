@@ -1,5 +1,5 @@
 # website-template
 
-# Running locally
+## Running locally
 
 Database: `Docker-compose up -d db`
