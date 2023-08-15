@@ -12,17 +12,3 @@ services:
     environment:
       - POSTGRES_PASSWORD=test
       - POSTGRES_USER=test
-
-  api:
-    build:
-      context: ./api
-      dockerfile: Dockerfile
-    ports:
-      - "80:80"
-    environment:
-      - DB_HOST=db
-      - DB_PORT=5432
-      - DB_USER=test
-      - DB_PASSWORD=test
-      - DB_NAME=test
-
